@@ -1,0 +1,25 @@
+{
+    "name": "post",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {},
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {
+        "post": {
+            "http": {
+                "path": "/aa",
+                "verb": "GET"
+            },
+            "returns": {
+                "arg": "posting",
+                "type": "string"
+
+            }
+        }
+    }
+}

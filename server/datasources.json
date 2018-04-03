@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "hi-lb-dbs": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "hi-lb-dbs",
+    "password": "",
+    "name": "hi-lb-dbs",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

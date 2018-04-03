@@ -1,0 +1,34 @@
+{
+    "name": "comment",
+    "base": "Model",
+    "properties": {},
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {
+        "cmd": {
+            "http": {
+                "path": "/greet",
+                "verb": "get"
+            },
+            "returns": {
+                "arg": "say",
+                "type": "string"
+            },
+            "accepts": [{
+                "arg": "No",
+                "type": "Number"
+            }]
+        },
+        "cmd1": {
+            "http": {
+                "path": "/test",
+                "verb": "get"
+            },
+            "returns": {
+                "arg": "Hello Loop-back",
+                "type": "string"
+            }
+        }
+    }
+}
